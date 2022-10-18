@@ -1,0 +1,22 @@
+.sidebar{
+    padding: 0;
+    position: sticky;
+    top: 138px;
+}
+
+.sidebar li {
+    list-style: none; }
+
+    .sidebar li span {
+        text-transform: uppercase;
+        padding: 12px 15px;
+        color: #252525;
+        border: 1px solid #eee;
+        display: block;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .my-account .sidebar li.active > span {
+        background-color: #eee;
+        font-family: "rubik-regular";
+    }

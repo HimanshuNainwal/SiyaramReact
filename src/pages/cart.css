@@ -1,0 +1,114 @@
+.cartHeading{
+    font-size: 35px;
+    margin: 25px 0;
+    text-align: center;
+    margin-top: 40px;
+    font-family: "rubik-medium";
+    font-weight: 600;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+.cart-item .item {
+    position: relative;
+    width: 40%;
+}
+.cart-item .item img {
+    max-width: 100%;
+}
+.cart-item .item-name {
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
+.cart-item .size {
+    font-size: 14px;
+}
+.cart-item .actionContainer {
+    position: absolute;
+    bottom: 0;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+.cart-item .move-wishlist, .cart-item .remove-cart{
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    
+}
+.cart-item .move-wishlist:hover, .cart-item .remove-cart:hover{
+    text-decoration: underline;
+}
+.cart-item{
+    border: none !important;
+    border-top: 2px solid #f4f4f4 !important;
+}
+.qtyAction i{
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.qtyAction{
+    padding: 5px 9px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    margin: 0;
+    height: 30px;
+    font-size: 12px;
+    display: inline-block;
+    background-color: #ccc;
+    cursor: pointer;
+}
+.qtyAction.disabled{
+    opacity: .2;
+    cursor: no-drop !important;
+}
+.qtyAction.displayQty{
+    background: none;
+    cursor: default;
+}
+.actionContainer i {
+    margin-right: 5px;
+}
+.summary-container table {
+    width: 100%;
+}
+.cart-summary label {
+    font-size: 18px;
+    width: 100%;
+    border-bottom: 1px solid #f4f4f4;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+}
+.cart-summary label {
+    font-family: "rubik-medium";
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.error3000 {
+    font-size: 12px;
+    color: red;
+    text-align: center;
+}
+.cart-summary table td, .cart-summary table th{
+
+    padding: 10px 0;
+    font-weight: 400;
+}
+.summary-container table tr.totals td.amount, .summary-total table tr.totals td.amount {
+    text-align: right;
+    font-size: 14px;
+}
+.cart-summary {
+    padding: 15px;
+    flex: 0 0 30%;
+    max-width: 30%;
+    background-color: #fafafa;
+}

@@ -1,0 +1,75 @@
+
+.loginModal{
+    /* height: 350px; */
+    width: 400px;
+}
+.LoginModal{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.closeButton{
+    position: absolute;
+    right: 0px;
+    z-index: 999;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    line-height: 10px;
+    opacity: 1;
+    border-radius: 3px;
+
+
+}
+.loginImageContainer{
+    position: relative;
+}
+.LoginInputContainer{
+    padding: 50px 5%;
+}
+.errMsg {
+    color: red;
+    text-align: left;
+    font-size: 12px;
+}
+.loginImageContainer img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.field {
+    margin-top: 16px;
+}
+
+.loginTitle{
+    font-size: 16px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+ .login-form {
+    max-width: 450px;
+    margin-top: 25px;
+}
+ .field.success .input-text {
+    border: 1px solid #a4d884;
+}
+.input-text {
+    width: 100%;
+    padding: 5px 9px;
+    height: 45px;
+    border: 1px solid #c2c2c2;
+    outline: none;
+    box-shadow: none;
+    font: -moz-pull-down-menu;
+    font-size: 14px;
+}
+.form-control {
+    height: 40px!important;
+}
+.resendOtpBtn{
+    color: #e62e2d;
+    font-size: 80%;
+    font-weight: 400;
+    text-align: right;
+}

@@ -1,0 +1,71 @@
+.productCardContianer{
+    width: 100%;
+    margin-top: 10px !important;
+    
+}
+.productPageHeading {
+    font-weight: 600;
+    display: inline-block;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 16px;
+    max-width: 400px;
+    color: #282c3f;
+    padding-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-family: "rubik-medium";
+}
+.item_count {
+    color: #878b94;
+    text-transform: lowercase;
+}
+.filter_header h3 { 
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0;
+    width: 100%;
+}
+.filter_header {
+    padding-top: 20px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #ededed;
+    padding-left: 15px;
+}
+.spinnerContainer{
+    margin-top: 30vh;
+    text-align: center;
+}
+
+.filterShadowBox{
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    border-bottom: 1px solid #eaeaec;
+    padding-bottom: 15px;
+    padding-top: 8px;
+    padding-right: 30px;
+    min-height: 63px;
+}
+.filterContainer ul li {
+    font-size: 12px;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 14px;
+    margin-right: 5px;
+    border: 1px solid #eaeaec;
+    margin-bottom: 4px;
+}
+.filterContainer ul li .aplliedFilterName{ 
+    text-transform: capitalize;
+}
+.filterContainer ul li .remove{ 
+    color: #c2c2c2;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+

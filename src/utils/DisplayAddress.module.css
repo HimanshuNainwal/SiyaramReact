@@ -1,0 +1,60 @@
+
+
+
+
+
+
+
+.shipping-address-item{
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    border-radius: 2px;
+    box-shadow: 0 0 4px #eee;
+    padding: 30px 35px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: capitalize;
+    position: relative;
+    overflow: hidden;
+}
+.shipping-address-item.selected:before {
+    content: "";
+    display: block!important;
+    height: 60px;
+    width: 60px;
+    transform: rotate(45deg);
+    left: -30px;
+    top: -30px;
+    position: absolute;
+    background: #e32e2c;
+}
+.shipping-address-item.selected:after {
+    background: #ff5501;
+    color: #fff;
+    content: "\f00c";
+    background-color: transparent;
+    font: normal normal normal 12px/1 FontAwesome;
+    height: 27px;
+    width: 29px;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 2px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    top: 0;
+}
+.shipping-address-item p{
+    margin: 0;
+}
+
+.removeAddress{
+    font-size: 18px;
+    color: #e32e2c;
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+    right: 15px;
+}
